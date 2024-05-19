@@ -19,6 +19,7 @@ struct DiceView: View {
             Button("Roll") {
                 numberOfPips = Int.random(in: 1...6)
             }
+            .buttonStyle(.bordered)
         }
     }
 }
