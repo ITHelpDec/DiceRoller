@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DiceView: View {
-    var numberOfPips: Int = 1
+    @State private var numberOfPips: Int = 1
     
     var body: some View {
         VStack {
