@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D50359262BFAC0F5000D6E02 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50359252BFAC0F5000D6E02 /* DiceView.swift */; };
 		D55DCE4F2BFABE2300CB191A /* DiceRollerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55DCE4E2BFABE2300CB191A /* DiceRollerApp.swift */; };
 		D55DCE512BFABE2300CB191A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55DCE502BFABE2300CB191A /* ContentView.swift */; };
 		D55DCE532BFABE2300CB191A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55DCE522BFABE2300CB191A /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D50359252BFAC0F5000D6E02 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 		D55DCE4B2BFABE2300CB191A /* DiceRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55DCE4E2BFABE2300CB191A /* DiceRollerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerApp.swift; sourceTree = "<group>"; };
 		D55DCE502BFABE2300CB191A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D50359242BFAC0CF000D6E02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D55DCE502BFABE2300CB191A /* ContentView.swift */,
+				D50359252BFAC0F5000D6E02 /* DiceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D55DCE422BFABE2200CB191A = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +62,8 @@
 		D55DCE4D2BFABE2300CB191A /* DiceRoller */ = {
 			isa = PBXGroup;
 			children = (
+				D50359242BFAC0CF000D6E02 /* Views */,
 				D55DCE4E2BFABE2300CB191A /* DiceRollerApp.swift */,
-				D55DCE502BFABE2300CB191A /* ContentView.swift */,
 				D55DCE522BFABE2300CB191A /* Assets.xcassets */,
 				D55DCE542BFABE2300CB191A /* Preview Content */,
 			);
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D55DCE512BFABE2300CB191A /* ContentView.swift in Sources */,
+				D50359262BFAC0F5000D6E02 /* DiceView.swift in Sources */,
 				D55DCE4F2BFABE2300CB191A /* DiceRollerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
