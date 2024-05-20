@@ -12,6 +12,12 @@ struct ContentView: View {
         VStack {
             Text("Dice Roller")
                 .font(.largeTitle.lowercaseSmallCaps())
+            
+            HStack {
+                DiceView()
+                DiceView()
+                DiceView()
+            }
         }
         .padding()
     }
