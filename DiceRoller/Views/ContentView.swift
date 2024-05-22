@@ -30,6 +30,7 @@ struct ContentView: View {
                 Button("Add die") {
                     numberOfDice += 1
                 }
+                .disabled(numberOfDice == 3)
             }
             .padding()
         }
