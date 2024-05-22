@@ -20,6 +20,17 @@ struct ContentView: View {
                     DiceView()
                 }
             }
+            
+            HStack {
+                Button("Remove die") {
+                    numberOfDice -= 1
+                }
+                
+                Button("Add die") {
+                    numberOfDice += 1
+                }
+            }
+            .padding()
         }
         .padding()
     }
