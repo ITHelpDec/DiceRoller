@@ -25,6 +25,7 @@ struct ContentView: View {
                 Button("Remove die") {
                     numberOfDice -= 1
                 }
+                .disabled(numberOfDice == 1)
                 
                 Button("Add die") {
                     numberOfDice += 1
