@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var numberOfDice: Int = 1
+    
     var body: some View {
         VStack {
             Text("Dice Roller")
