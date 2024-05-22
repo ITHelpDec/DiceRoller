@@ -16,7 +16,7 @@ struct ContentView: View {
                 .font(.largeTitle.lowercaseSmallCaps())
             
             HStack {
-                ForEach(1...3, id: \.description) { _ in
+                ForEach(1...numberOfDice, id: \.description) { _ in
                     DiceView()
                 }
             }
