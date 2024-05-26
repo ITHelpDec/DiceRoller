@@ -27,7 +27,7 @@ struct ContentView: View {
                 }
                 .disabled(numberOfDice == 1)
                 
-                Button("Add die") {
+                Button("Add die", systemImage: "plus.circle.fill") {
                     numberOfDice += 1
                 }
                 .disabled(numberOfDice == 5)
