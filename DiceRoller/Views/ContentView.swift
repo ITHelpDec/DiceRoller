@@ -14,6 +14,7 @@ struct ContentView: View {
         VStack {
             Text("Dice Roller")
                 .font(.largeTitle.lowercaseSmallCaps())
+                .foregroundStyle(.white)
             
             HStack {
                 ForEach(1...numberOfDice, id: \.description) { _ in
