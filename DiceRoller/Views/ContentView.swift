@@ -34,6 +34,7 @@ struct ContentView: View {
             }
             .padding()
             .labelStyle(.iconOnly)
+            .font(.title)
         }
         .padding()
     }
