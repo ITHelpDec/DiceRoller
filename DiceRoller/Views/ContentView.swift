@@ -37,6 +37,7 @@ struct ContentView: View {
             .font(.title)
         }
         .padding()
+        .background(.appBackground)
     }
 }
 
